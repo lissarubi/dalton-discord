@@ -165,14 +165,6 @@ html.theme-light::before {
   background-color: var(--background-secondary);
 }
 
-.theme-dark .isUnread-3Ef-o9 {
-  border-color: var(--dalton-blue);
-}
-.theme-dark .unreadPill-2HyYtt {
-  fill: var(--dalton-blue);
-  background-color: var(--dalton-blue);
-}
-
 /* Unread Bar */
 .theme-dark .newMessagesBar-265mhP {
   background-color: var(--dalton-blue);
