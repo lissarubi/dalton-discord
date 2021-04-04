@@ -1,0 +1,205 @@
+/**
+ * @name Dalton
+ * @version 1.0.0
+ * @description A Dark blue and saturate theme to help mainly colorblind people (Deutan)
+ * @website https://github.com/edersonferreira/dalton-discord
+ * */
+
+:root {
+  /* Color palette */
+  --dalton-primary: #0c0a0f;
+  --dalton-secondary: #161419;
+  --dalton-tertiary: #14191f;
+  --dalton-accent-color: #ffffff;
+  --dalton-input-box: #161419;
+  --dalton-blue: #2b7df0;
+  --dalton-blue-dark: #2b7df0;
+
+  /* Scrollbar */
+  --dalton-scrollbar-track: var(--dalton-primary);
+  --dalton-scrollbar-thumb: var(--dalton-secondary);
+}
+html.theme-light::before {
+  font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: var(--dalton-primary);
+  text-align: center;
+  position: absolute;
+  z-index: 10001;
+  right: 0;
+  left: 0;
+}
+.theme-dark {
+  --background-primary: var(--dalton-primary);
+  --background-secondary: var(--dalton-secondary);
+  --background-tertiary: var(--dalton-tertiary);
+  --background-accent: var(--dalton-blue);
+  --header-primary: var(--dalton-accent-color);
+  --interactive-active: var(--dalton-accent-color);
+  --local-bot-side: var(--dalton-blue);
+  /* Chat input box */
+  --channeltextarea-background: var(--dalton-input-box);
+  --scrollbar-auto-thumb: var(--dalton-secondary);
+  --scrollbar-auto-track: var(--dalton-primary);
+}
+
+/* People column */
+.theme-dark .container-1D34oG {
+  background-color: var(--background-primary);
+}
+
+/* Modals */
+.theme-dark .root-1gCeng {
+  background-color: var(--background-primary);
+}
+.theme-dark .footer-2gL1pp {
+  background-color: var(--background-tertiary);
+}
+
+/* Popup when you click a mention */
+.theme-dark .headerNormal-T_seeN {
+  background-color: var(--background-tertiary);
+}
+.theme-dark .body-3iLsc4,
+.theme-dark .footer-1fjuF6 {
+  background-color: var(--background-secondary);
+}
+
+/* Mention autocompletion in chat box */
+.theme-dark .autocomplete-1vrmpx {
+  background-color: var(--background-tertiary);
+}
+.theme-dark .selected-1Tbx07 {
+  background-color: var(--background-secondary);
+}
+
+.theme-dark .item-2hkk8m {
+  background-color: var(--header-primary);
+}
+
+/* Assets are all white*/
+.theme-dark svg {
+  color: #5c6b80;
+}
+
+.theme-dark .premiumIcon-1rDbWQ {
+  color: #ff73fa;
+}
+
+.theme-dark .ownerIcon-2NH9FM {
+  color: #faa61a;
+}
+/* Discord mentions*/
+.theme-dark .mentioned-xhSam7:before {
+  background-color: #6ba9ff;
+}
+
+.theme-dark .mentioned-xhSam7 {
+  background-color: var(--dalton-input-box);
+}
+
+/* Discord Codeblocks */
+.theme-dark code {
+  background-color: var(--dalton-input-box);
+}
+
+.theme-dark .inline {
+  background-color: var(--background-primary);
+}
+
+.theme-dark .hljs {
+  background-color: var(--dalton-input-box);
+}
+
+/* Embeds with no explicit color set*/
+.theme-dark .embed-IeVjo5 {
+  border-color: var(--background-primary);
+}
+
+/* Do not Disturb Status*/
+.theme-dark rect[mask="url(#svg-mask-status-dnd)"] {
+  fill: #2b7df0;
+}
+
+.theme-dark rect[mask="url(#svg-mask-status-online)"] {
+  fill: #3e4b59;
+}
+
+.theme-dark rect[mask="url(#svg-mask-status-idle)"] {
+  fill: #253340;
+}
+
+.theme-dark rect[mask="url(#svg-mask-status-online-mobile)"] {
+  fill: #3e4b59;
+}
+
+/* Mention Badge*/
+.theme-dark .numberBadge-2s8kKX {
+  background-color: var(--dalton-blue-dark) !important;
+}
+/* Search Modal */
+.theme-dark .open-6_Y_aH {
+  background-color: var(--background-secondary);
+}
+
+/* Quote */
+.theme-dark .blockquoteContainer-U5TVEi {
+  background-color: var(--background-secondary-alt);
+}
+
+/* New Reply*/
+.repliedMessage-VokQwo:before {
+  border-color: white;
+}
+
+.theme-dark .repliedMessage-VokQwo {
+  background-color: var(--background-secondary-alt);
+  padding: 0.5em;
+  width: fit-content;
+}
+*/ 
+
+
+/* Context Menus*/
+.thin-1ybCId {
+  background-color: var(--background-secondary);
+}
+
+.theme-dark .isUnread-3Ef-o9 {
+  border-color: var(--dalton-blue);
+}
+.theme-dark .unreadPill-2HyYtt {
+  fill: var(--dalton-blue);
+  background-color: var(--dalton-blue);
+}
+
+/* Unread Bar */
+.theme-dark .newMessagesBar-265mhP {
+  background-color: var(--dalton-blue);
+}
+
+/* Notifs */
+.theme-dark .unreadMentionsBar-1VrBNe {
+  background-color: var(--dalton-blue);
+}
+
+/* Active FOlder */
+.theme-dark .item-2hkk8m {
+  background-color: #81a1c1;
+}
+
+/* Menu Green */
+.theme-dark .container-3auIfb {
+  background-color: #3e4b59;
+}
+
+/* Bot tags not gay */
+.theme-dark .botTagRegular-2HEhHi {
+  transition: 0.5s;
+  background: rgba(114, 137, 218, 0.1);
+  color: #7289da;
+}
+.theme-dark .botTagRegular-2HEhHi:hover {
+  transition: 0.5s;
+  background: #7289da;
+  color: #fff;
+}
