@@ -1,6 +1,6 @@
 # Dalton Discord
 
-> Dalton Discord is a Vim port of Dalton Theme, check out [Dalton Website](https://edersonferreira.github.io/dalton-website/) to get more dalton theme ports.
+> Dalton Discord is a Discord port of Dalton Theme, check out [Dalton Website](https://edersonferreira.github.io/dalton-website/) to get more dalton theme ports.
 
 Dalton Discord is a Dalton Theme to [Better Discord](https://github.com/rauenzi/BetterDiscordApp).
 
