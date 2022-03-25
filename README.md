@@ -1,6 +1,6 @@
 # Dalton Discord
 
-> Dalton Discord is a Discord port of Dalton Theme, check out [Dalton Website](https://edersonferreira.github.io/dalton-website/) to get more dalton theme ports.
+> Dalton Discord is a Discord port of Dalton Theme, check out [Dalton Website](https://lissaferreira.github.io/dalton-website/) to get more dalton theme ports.
 
 Dalton Discord is a Dalton Theme to [Better Discord](https://github.com/rauenzi/BetterDiscordApp).
 
@@ -10,7 +10,7 @@ BetterDiscord is a client modification for Discord. This allows you to add plugi
 
 # Download
 
-clone this repository with `git clone https://github.com/edersonferreira/dalton-discord`, and move `dalton.css` to your Better Discord themes folder.
+clone this repository with `git clone https://github.com/lissaferreira/dalton-discord`, and move `dalton.css` to your Better Discord themes folder.
 
 # Screenshot
 
